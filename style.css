@@ -1,22 +1,25 @@
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+li {
+  list-style: none;
+}
 .topbar span,
 .topbar a {
   font-size: small;
-  color: bisque;
+  color: rgb(248, 246, 242);
 }
 .topbar .phone {
   color: blanchedalmond;
 }
 #topbar {
-  background-color: black;
+  background-color: rgb(145, 145, 145);
 }
 .body {
   font-family: "Times New Roman", Times, serif;
 }
 .body {
-  font-size: small;
+  font-size: x-small;
 }
 #body {
   background-color: grey;
@@ -27,7 +30,7 @@ body {
 .PRODUCTS span,
 .PRODUCTS a {
   font-size: x-large;
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 #PRODUCTS {
   background-color: theme("colors.white");
@@ -36,14 +39,14 @@ body {
   box-shadow: theme("boxShadow.xl");
 }
 body {
-  background-color: rgb(100, 181, 7);
+  background-color: hsl(334, 90%, 28%);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-self: auto;
 }
-.container section {
+.PRODUCTS section {
   padding: 50px;
 }
 .body .style {
