@@ -67,3 +67,12 @@ body {
   background-color: rgb(250, 236, 83);
   flex-flow: column-reverse;
 }
+.justify-right {
+  float: right;
+}
+.navigation div {
+  margin-right: 10px;
+}
+.navigation a {
+  font-size: 0.8em;
+}
