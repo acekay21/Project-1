@@ -39,7 +39,7 @@ li {
   box-shadow: theme("boxShadow.xl");
 }
 body {
-  background-color: hsl(334, 90%, 28%);
+  background-image: url(aisle.jpeg);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
